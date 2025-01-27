@@ -25,7 +25,3 @@ export const button = styled.button`
     margin-left: 10px;
     margin-bottom: 0px;
 `;
-
-interface buttonProps {
-    $wasclicked?: boolean;
-}
