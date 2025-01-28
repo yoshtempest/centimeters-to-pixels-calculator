@@ -1,15 +1,16 @@
 import * as S from "./styles"
 
 interface Props{
-    value: string
+    value: string;
+    onClick: () => void;
 }
 
 const NumberButton:React.FC<Props> = ({
-    value
+    value, onClick
 }) => {
     return(
         <S.Container>
-            <S.button>{value}</S.button>
+            <S.button onClick={onClick}>{value}</S.button>
         </S.Container>
         
     )

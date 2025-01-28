@@ -12,3 +12,8 @@ export const Container = styled.div`
   background-color: #D3D3D3;
   padding: 15px;
 `
+
+export const Display = styled.div`
+  background-color: white;
+  border: solid 1px;
+`;
