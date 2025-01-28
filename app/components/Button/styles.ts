@@ -2,15 +2,14 @@ import styled from "styled-components"
 
 
 export const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    align-items: center;
 `;
 
-
-export const button = styled.button`
-    position: inline-block;
+export const Button = styled.button`
+    position: relative;
     font-size: 20px;
     background-color: #fafafa;
     color: black;
@@ -19,9 +18,8 @@ export const button = styled.button`
     border: 1px rgba(0, 0, 0, 0.2) solid;
     border-radius: 10px;
     cursor: pointer;
-    position: absolute;
     height: 40px;
     width: 60px;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-bottom: 0px;
 `;

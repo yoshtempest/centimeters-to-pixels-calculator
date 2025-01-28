@@ -3,14 +3,14 @@ import Input from "../Input";
 
 interface Props {
     value: string;
+    onClear: () => void;
 }
 
 const Visor:React.FC<Props> = ({value}) => {
 
     return (
         <S.Container>
-            <S.Display>{value}</S.Display>
-            <Input />
+            <Input>{value}</Input>
         </S.Container>
     );
 };

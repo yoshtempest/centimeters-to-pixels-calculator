@@ -3,7 +3,7 @@ import * as S from "./styles"
 
 const Input = () => {
 
-    const placeholder = ["Value", "Click Enter"]
+    const placeholder = ["Value", "Press Enter"]
 
     return(
         <S.Container>
