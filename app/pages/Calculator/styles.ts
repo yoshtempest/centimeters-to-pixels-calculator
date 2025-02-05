@@ -2,13 +2,14 @@ import styled from "styled-components"
 
 
 export const container = styled.div`
-    border: black solid;
-    display: flex;
-    margin-left: 35%;
-    margin-top: 6%;
-    background-color: #ededed;
-    height: 75vh;
-    width: 55vh;
+    margin-left: 13%;
+    margin-top: 10%;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
+    height: 200px;
+    width: 775px;
+    display: flex;
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
 `;
