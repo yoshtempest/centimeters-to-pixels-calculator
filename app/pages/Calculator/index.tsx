@@ -5,9 +5,9 @@ import GatewayContainer from "../../components/GatewayContainer"
 const CalculatorPage = () => {
 
     return (
-        <S.container>
+        <S.Container>
             <GatewayContainer />
-        </S.container>
+        </S.Container>
     )
 };
 

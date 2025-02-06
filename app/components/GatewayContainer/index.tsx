@@ -1,12 +1,14 @@
 import * as S from "./styles";
 import Input from "../Input";
+import Output from "../Output";
 
 
 const GatewayContainer = () => {
 
     return (
         <S.Container>
-            <Input></Input>
+            <Input />
+            <Output />
         </S.Container>
     );
 };
